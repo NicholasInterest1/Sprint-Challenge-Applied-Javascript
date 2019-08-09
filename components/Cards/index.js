@@ -28,19 +28,19 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
             let newArticle = cardCreator(article);
             articleContainment.appendChild(newArticle);
         })
-        response.data.articles.bootstrap.forEach ( (article) => {
+        response.data.articles.javascript.forEach ( (article) => {
             let newArticle = cardCreator(article);
             articleContainment.appendChild(newArticle);
         })
-        response.data.articles.bootstrap.forEach ( (article) => {
+        response.data.articles.jquery.forEach ( (article) => {
             let newArticle = cardCreator(article);
             articleContainment.appendChild(newArticle);
         })
-        response.data.articles.bootstrap.forEach ( (article) => {
+        response.data.articles.node.forEach ( (article) => {
             let newArticle = cardCreator(article);
             articleContainment.appendChild(newArticle);
         })
-        response.data.articles.bootstrap.forEach ( (article) => {
+        response.data.articles.technology.forEach ( (article) => {
             let newArticle = cardCreator(article);
             articleContainment.appendChild(newArticle);
         })
