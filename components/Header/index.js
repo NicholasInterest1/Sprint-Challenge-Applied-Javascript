@@ -27,12 +27,12 @@ function Header() {
     headTemperatureSpan.classList.add('temp');
     headTemperatureSpan.textContent = "98°";
 
-    // properly nest the elements
+    
     headDiv.appendChild(headDateSpan);
     headDiv.appendChild(headH1);
     headDiv.appendChild(headTemperatureSpan);
 
-    // return finished header
+    
     return headDiv;
 }
 
